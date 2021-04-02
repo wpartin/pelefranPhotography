@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap");
+
+:root {
+  --primary-color: #1f0318;
+  --secondary-color: #e5f2c9;
+  --sub-color-1: #7f534b;
+  --sub-color-2: #8c705f;
+  --sub-color-3: #1e1a1d;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* GLOBAL */
+
+html,
+body {
+  font-family: "Kiwi Maru", serif;
+}
+
+.hidden {
+  display: none;
+}
+
+/* HEADER */
+
+header {
+}
