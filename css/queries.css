@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px) {
+  .site-container {
+    background-position-y: -100px;
+  }
+  header nav ul {
+    display: none;
+  }
+  .hero-container {
+    height: 300px;
+  }
+  .presentation {
+    grid-template-columns: 1fr;
+  }
+}
