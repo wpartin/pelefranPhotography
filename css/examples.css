@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap");
+
+:root {
+  --primary-color: #1f0318;
+  --secondary-color: #e5f2c9;
+  --sub-color-1: #7f534b;
+  --sub-color-2: #8c705f;
+  --sub-color-3: #1e1a1d;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* GLOBAL */
+
+html,
+body {
+  font-family: "Kiwi Maru", serif;
+  background: var(--secondary-color);
+  color: var(--sub-color-3);
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 85px;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+header .logo {
+  width: 30%;
+  margin-left: 2rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+}
+
+header .logo a {
+  text-decoration: none;
+  color: var(--sub-color-3);
+}
+
+header nav {
+  margin-right: 2rem;
+  width: 70%;
+}
+
+header nav ul {
+  display: flex;
+  float: right;
+}
+
+header nav ul li {
+  list-style: none;
+  margin-left: 5rem;
+  font-size: 0.9rem;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: var(--sub-color-3);
+  transition: 0.1s;
+}
+
+header nav ul li a:hover {
+  border-bottom: 2px solid var(--sub-color-3);
+}
