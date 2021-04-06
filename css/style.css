@@ -2,9 +2,7 @@
 
 :root {
   --primary-color: #1f0318;
-  --secondary-color: #efefef;
-  --sub-color-1: #7f534b;
-  --sub-color-2: #8c705f;
+  --secondary-color: #fff;
   --sub-color-3: #1e1a1d;
 }
 
@@ -169,7 +167,8 @@ header nav .links ul li a:hover {
 /* ABOUT */
 
 .about-container {
-  height: 50vh;
+  height: auto;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -180,17 +179,46 @@ header nav .links ul li a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 50vw;
-  padding: 2rem;
+  width: 100%;
 }
 
-.about h3 {
-  margin: 2rem 0;
+.top,
+.middle,
+.bottom {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.top {
+  background-color: rgb(245, 245, 245);
+}
+
+.middle {
+  background-color: rgb(235, 235, 235);
+}
+
+.bottom {
+  background-color: rgb(225, 225, 225);
+}
+
+.top p,
+.middle p,
+.bottom p {
+  padding: 0 2rem;
+  line-height: 2rem;
+  text-align: center;
+  width: 75%;
+}
+
+.about .icon {
   text-align: center;
 }
 
-.about p {
-  margin: 2rem 0;
+.about img {
+  width: 125px;
 }
 
 /* EXAMPLES */
@@ -199,14 +227,6 @@ header nav .links ul li a:hover {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-}
-
-.examples-heading {
-  height: 150px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .slide {
@@ -236,6 +256,11 @@ header nav .links ul li a:hover {
   text-align: center;
   font-size: 1.1rem;
   padding: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.slide .img {
+  border: 1rem solid #fff;
 }
 
 .slide-1 .img {
