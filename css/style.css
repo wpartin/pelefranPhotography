@@ -225,6 +225,7 @@ header nav .links ul li a:hover {
 /* EXAMPLES */
 
 .examples-container {
+  height: 400vh;
   display: flex;
   flex-direction: column;
   background-color: #fff;

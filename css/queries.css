@@ -48,6 +48,9 @@
   .about p {
     margin: 2rem 0;
   }
+  .examples-container {
+    height: 400vh;
+  }
   .slide p {
     height: 50%;
     width: 80%;
@@ -73,5 +76,12 @@
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .slide p {
+    height: 400px;
+    padding: 0;
   }
 }
