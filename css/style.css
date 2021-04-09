@@ -186,6 +186,7 @@ header nav .links ul li a:hover {
 .middle,
 .bottom {
   height: 75vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -301,6 +302,60 @@ header nav .links ul li a:hover {
   background-size: cover;
   height: 100%;
   width: 60%;
+}
+
+/* CONTACT */
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+
+.contact-heading {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--sub-color-3);
+}
+
+#message {
+  height: 200px;
+}
+
+.form-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  max-width: 500px;
 }
 
 /* FOOTER */
